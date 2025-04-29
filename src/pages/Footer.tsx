@@ -1,39 +1,49 @@
 import React from "react";
 
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/logo.png';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex flex-wrap gap-8 items-center px-24 py-8 mt-32 text-sm leading-5 text-black bg-stone-50 min-h-[147px] max-md:px-5 max-md:mt-10">
-      <img
-            src={logo}
-            alt="Company logo"
-        className="object-contain flex-1 shrink self-stretch my-auto w-40 aspect-[1.82] basis-0"
-      />
-      <p className="flex-1 shrink my-auto basis-0">
-        G.NIOOS © <br />
-        2021
-      </p>
-      <a href="#support" className="flex-1 shrink my-auto basis-0">
-        Support <br />
-        membres
-      </a>
-      <a href="#legal" className="flex-1 shrink my-auto basis-0">
-        Mentions <br />
-        légales
-      </a>
-      <a href="#terms" className="flex-1 shrink my-auto basis-0">
-        Conditions <br />
-        d'utilisations
-      </a>
-      <a href="#careers" className="flex-1 shrink my-auto basis-0">
-        G.nioos <br />
-        recrute
-      </a>
-      <a href="#privacy" className="flex-1 shrink my-auto basis-0">
-        Données <br />
-        personnelles
-      </a>
+    <footer className="bg-gray-100 py-4 border-t justify-center">
+      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between px-6">
+        <div className="flex items-center space-x-3 mb-3 sm:mb-0">
+          <img src={logo} alt="Company Logo" className="h-10" />
+          <span className="text-gray-600 text-sm">G.NIOOS © 2021</span>
+        </div>
+
+        <nav
+          className="flex flex-wrap justify-center sm:justify-start space-x-6 text-sm text-gray-600"
+          aria-label="Footer Navigation"
+        >
+          <ul className="flex flex-wrap space-x-4 justify-center">
+            <li>
+              <a href="#" className="hover:underline focus:outline-none focus:ring-2 focus:ring-gray-400">
+                Support members
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline focus:outline-none focus:ring-2 focus:ring-gray-400">
+                Mentions légales
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline focus:outline-none focus:ring-2 focus:ring-gray-400">
+                Conditions d'utilisations
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline focus:outline-none focus:ring-2 focus:ring-gray-400">
+                G.nioos recrute
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline focus:outline-none focus:ring-2 focus:ring-gray-400">
+                Données personnelles
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </footer>
   );
 };

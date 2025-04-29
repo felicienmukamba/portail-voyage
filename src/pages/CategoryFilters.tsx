@@ -11,9 +11,8 @@ const CategoryFilters: React.FC<CategoryFiltersProps> = ({
 }) => {
   return (
     <div className="flex flex-wrap gap-5 items-end self-start text-black max-md:max-w-full">
-      <h2 className="text-2xl font-semibold">{title}</h2>
       {categories.map((category, index) => (
-        <button key={index} className="hover:underline focus:font-semibold">
+        <button key={`${index}-${title}`} className="hover:underline focus:font-semibold">
           {category}
         </button>
       ))}

@@ -42,9 +42,8 @@ const Header = () => {
               <ChevronDown size={16} className="ml-1 transition-transform group-hover:rotate-180" />
             </button>
             <div className="absolute left-0 mt-1 bg-white shadow-lg rounded-lg w-56 z-50 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 transform translate-y-1 group-hover:translate-y-0 border border-gray-100">
-              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Praticiens de santé</a>
-              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Distributeurs</a>
-              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Séjours de santé</a>
+              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Professionels du voyage</a>
+              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Tourisme médical</a>
             </div>
           </div>
 
@@ -57,8 +56,10 @@ const Header = () => {
             <div className="absolute left-0 mt-1 bg-white shadow-lg rounded-lg w-48 z-50 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 transform translate-y-1 group-hover:translate-y-0 border border-gray-100">
               <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Forum</a>
               <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Librairie</a>
-              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Groupes d'entraide</a>
-              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">RDV en ligne</a>
+              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Echanges milticulturels</a>
+              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Films de voyage</a>
+              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Guides</a>
+              <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Plateforme de réservations</a>
             </div>
           </div>
         </div>
@@ -109,9 +110,8 @@ const Header = () => {
             </button>
             {openDropdown === "annuaires" && (
               <div className="pl-4 mt-1">
-                <a href="#" className="block px-4 py-2 text-black font-bold hover:bg-gray-50 transition">Praticiens de santé</a>
-                <a href="#" className="block px-4 py-2 text-black font-bold hover:bg-gray-50 transition">Distributeurs</a>
-                <a href="#" className="block px-4 py-2 text-black font-bold hover:bg-gray-50 transition">Séjours de santé</a>
+                <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Professionels du voyage</a>
+                <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Tourisme médical</a>
               </div>
             )}
           </div>
@@ -130,10 +130,12 @@ const Header = () => {
             </button>
             {openDropdown === "services" && (
               <div className="pl-4 mt-1">
-                <a href="#" className="block px-4 py-2 text-black font-bold hover:bg-gray-50 transition">Forum</a>
-                <a href="#" className="block px-4 py-2 text-black font-bold hover:bg-gray-50 transition">Librairie</a>
-                <a href="#" className="block px-4 py-2 text-black font-bold hover:bg-gray-50 transition">Groupes d'entraide</a>
-                <a href="#" className="block px-4 py-2 text-black font-bold hover:bg-gray-50 transition">RDV en ligne</a>
+                <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Forum</a>
+                <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Librairie</a>
+                <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Echanges milticulturels</a>
+                <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Films de voyage</a>
+                <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Guides</a>
+                <a href="#" className="block px-4 py-3 text-black font-bold hover:bg-gray-50 transition">Plateforme de réservations</a>
               </div>
             )}
           </div>
